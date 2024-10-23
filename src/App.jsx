@@ -1,7 +1,7 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom';
-import Landing from '@features/landing/Landing';
-import Newsfeed from '@features/newsfeed/Newsfeed';
+import React from "react"
+import { Routes, Route } from "react-router-dom"
+import Landing from "@features/landing/Landing"
+import Newsfeed from "@features/newsfeed/Newsfeed"
 function App() {
   return (
     <Routes>

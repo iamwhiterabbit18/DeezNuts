@@ -1,8 +1,27 @@
-import React from 'react'
+import React from "react"
+import styles from "./landing.module.scss"
+
+import {
+  Greetings,
+  Message,
+  Mission,
+  ComProjects,
+  Team,
+  Reason,
+  SignIn,
+} from "@landing"
 
 function Landing() {
   return (
-    <div>Landing</div>
+    <div className={styles.cont}>
+      <Greetings />
+      <Message />
+      <Mission />
+      <ComProjects />
+      <Team />
+      <Reason />
+      <SignIn />
+    </div>
   )
 }
 

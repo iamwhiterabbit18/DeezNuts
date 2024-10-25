@@ -5,13 +5,10 @@ function Newsfeed() {
   return (
     <>
     <Header />
-
     <main>
       <div>Newsfeed</div>
-
       <Navbar />
     </main>
-
     </>
   )
 }

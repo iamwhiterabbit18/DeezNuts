@@ -1,8 +1,27 @@
-# React + Vite
+# Deez Nuts 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project aims to create a community platform for gardeners. It is developed by enthusiastic software engineers that wanted to enhance their skills in programming.
 
-Currently, two official plugins are available:
+## How to contribute?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ol>
+  <li>There are folders dedicated on adding components and utilities. Src components and utilities are for global so it could be reused anywhere while Children's solely for them respectively.</li>
+  <strong>Example:</strong>
+  (https://github.com/user-attachments/assets/5d3bb3cc-02c4-49f2-8e67-6e76b248ffe4)
+  <li>Use aliases to avoid long paths being imported.</li>
+  <strong>Example:</strong>
+  (https://github.com/user-attachments/assets/e8dcda7c-175b-45a6-821a-e6c665e63763)
+  <li>Reduce import line by creating an index.js that would handle all the paths.</li>
+  <strong>Example:</strong>
+  (https://github.com/user-attachments/assets/f6f989c9-c069-41cf-b9e7-74742aaebc66)
+</ol>
+
+## Technologies being used
+<ul>
+  <li>Package manager: NPM</li>
+  <li>Build tool: Vite</li>
+  <li>Frontend: ReactJS</li>
+  <li>Backend: Express</li>
+  <li>Database: MongoDB</li>
+  <li>Styles: SCSS</li>
+</ul>

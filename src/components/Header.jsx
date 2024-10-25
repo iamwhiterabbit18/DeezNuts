@@ -3,9 +3,9 @@ import React from 'react'
 function Header() {
   return (
     <header>
-      <div className='logo'>Logo</div>
+      <div className='header-logo'>Logo</div>
 
-      <span className="material-icons-outlined">
+      <span className="header-search-btn material-icons-outlined">
         search
       </span>
     </header>

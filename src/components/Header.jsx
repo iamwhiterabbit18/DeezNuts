@@ -1,11 +1,12 @@
 import React from 'react'
+import styles from "./components.module.scss"
 
 function Header() {
   return (
-    <header>
+    <header className={styles.nfHeader}>
       <div className='header-logo'>Logo</div>
 
-      <span className="header-search-btn material-icons-outlined">
+      <span className={`${styles.headerIcon} material-icons-outlined`}>
         search
       </span>
     </header>

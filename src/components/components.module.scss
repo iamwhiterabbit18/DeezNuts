@@ -1,0 +1,31 @@
+/** Header **/
+
+.nfHeader {
+    background-color: #04A777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+    .headerIcon {
+        color: #291720;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
+/** Nav **/
+
+.nfNav {
+    background-color: #04A777;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    
+        .navIcon {
+            color: #291720;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+}

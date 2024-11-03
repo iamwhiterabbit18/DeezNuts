@@ -1,21 +1,22 @@
 import React from "react";
+import styles from "./components.module.scss"
 
 function Navbar() {
     return(
-        <nav>
-            <span className="nav-home-link material-icons-outlined">
+        <nav className={styles.nfNav}>
+            <span className={`${styles.navIcon} material-icons-outlined`}>
                 home
             </span>
-            <span className="nav-notif-link material-icons-outlined">
+            <span className={`${styles.navIcon} material-icons-outlined`}>
                 notifications
             </span>
-            <span className="nav-create-link material-icons-outlined">
+            <span className={`${styles.navIcon} material-icons-outlined`}>
                 add
             </span>
-            <span className="nav-messages-link material-icons-outlined">
+            <span className={`${styles.navIcon} material-icons-outlined`}>
                 sms
             </span>
-            <span className="nav-person-link material-icons-outlined">
+            <span className={`${styles.navIcon} material-icons-outlined`}>
                 person
             </span>
         </nav>

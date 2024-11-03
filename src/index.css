@@ -1,5 +1,13 @@
 /* global */
 
+:root {
+  --main-color: #04A777;
+  --screen-bg: #D9D9D9;
+  --card-bg: #fcfcfc;
+  --accent-color: #D90368;
+  --font-primary-color: #291720;
+}
+
 *{
   margin: 0;
   padding: 0;

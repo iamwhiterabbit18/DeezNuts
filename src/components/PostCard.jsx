@@ -20,7 +20,7 @@ function PostCard() {
 
                 <div className={styles.nfPostCardHeaderBtns}>
                     <button className={styles.nfPostCardFollow}>
-                        + Follow
+                        Follow
                     </button>
 
                     

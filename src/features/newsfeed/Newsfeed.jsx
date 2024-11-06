@@ -12,6 +12,8 @@ function Newsfeed() {
       <main className={styles.nfMainContainer}>
         <div className={styles.nfPostCardContainer}>
           <PostCard />
+          <PostCard />
+
         </div>
         <Navbar />
       </main>

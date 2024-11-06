@@ -1,24 +1,15 @@
 import React from "react";
+import { Icon } from "@iconify/react";
 import styles from "./components.module.scss"
 
 function Navbar() {
     return(
         <nav className={styles.nfNav}>
-            <span className={`${styles.navIcon} material-icons-outlined`}>
-                home
-            </span>
-            <span className={`${styles.navIcon} material-icons-outlined`}>
-                notifications
-            </span>
-            <span className={`${styles.navIcon} material-icons-outlined`}>
-                add
-            </span>
-            <span className={`${styles.navIcon} material-icons-outlined`}>
-                sms
-            </span>
-            <span className={`${styles.navIcon} material-icons-outlined`}>
-                person
-            </span>
+            <Icon icon="solar:home-smile-angle-linear" className={styles.navIcon} />
+            <Icon icon="solar:bell-bing-linear" className={styles.navIcon} />
+            <Icon icon="solar:add-circle-linear" className={styles.navIcon} />
+            <Icon icon="solar:chat-line-linear" className={styles.navIcon} />
+            <Icon icon="solar:user-circle-linear" className={styles.navIcon} />
         </nav>
     );
 };

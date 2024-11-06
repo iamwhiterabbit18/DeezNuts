@@ -1,4 +1,5 @@
 import React from "react";
+import { Icon } from "@iconify/react";
 import styles from "./components.module.scss"
 
 function PostCard() {
@@ -22,7 +23,9 @@ function PostCard() {
                         + Follow
                     </button>
 
-                    <button className={styles.nfPostMiscBtn}></button>
+                    
+                    <Icon icon="solar:menu-dots-bold" className={styles.nfPostMiscBtn} />
+                    
                 </div>
             </slot>
 
@@ -37,15 +40,9 @@ function PostCard() {
                     </h1>
                     
                     <div className={styles.nfPostCardEngagements}>
-                        <span className={`${styles.PostCardIcon} material-icons-outlined`}>
-                            favorite_outline
-                        </span>
-                        <span className={`${styles.PostCardIcon} material-icons-outlined`}>
-                            maps_ugc_outline
-                        </span>
-                        <span className={`${styles.PostCardIcon} material-icons-outlined`}>
-                            ios_share_outline
-                        </span>
+                        <Icon icon="solar:heart-angle-linear" className={styles.PostCardIcon} />
+                        <Icon icon="solar:chat-round-line-linear" className={styles.PostCardIcon} />
+                        <Icon icon="solar:share-linear" className={styles.PostCardIcon} />
                     </div>          
                 </div>
 

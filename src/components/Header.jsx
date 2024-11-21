@@ -1,14 +1,12 @@
 import React from 'react'
+import { Icon } from "@iconify/react";
 import styles from "./components.module.scss"
 
 function Header() {
   return (
     <header className={styles.nfHeader}>
       <div className='header-logo'>Logo</div>
-
-      <span className={`${styles.headerIcon} material-icons-outlined`}>
-        search
-      </span>
+      <Icon icon="solar:magnifer-outline" className={styles.headerIcon} />
     </header>
   )
 }
